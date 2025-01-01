@@ -1,0 +1,52 @@
+[
+  {
+    "title": "Mainframes 101: A Beginner's Guide to Getting Started",
+    "description": "An introductory guide to mainframe concepts and terminology for absolute beginners.",
+    "link": "/getting-started",
+    "category": "Basics",
+    "locked": false
+  },
+  {
+    "title": "Installing and Using C3270 on MacOS for IBM ZExplore Beginners",
+    "description": "Step-by-step instructions for setting up and using the C3270 terminal emulator on MacOS.",
+    "link": "/guides/c3270-macos-setup",
+    "category": "Dev + Ops",
+    "locked": true
+  },
+  {
+    "title": "Setting Up VSCode on MacOS for IBM ZExplore: Step-by-Step",
+    "description": "A comprehensive guide to configuring Visual Studio Code for mainframe development on MacOS.",
+    "link": "/guides/vscode-macos-setup",
+    "category": "Dev + Ops",
+    "locked": true
+  },
+  {
+    "title": "ISPF Made Simple: Your Guide to Mainframe Navigation",
+    "description": "Learn how to navigate and use the Interactive System Productivity Facility (ISPF) on mainframes.",
+    "link": "/guides/ispf-navigation",
+    "category": "Basics",
+    "locked": true
+  },
+  {
+    "title": "TSO Basics: How to Work with the Time Sharing Option",
+    "description": "An introduction to TSO commands and concepts for mainframe interaction.",
+    "link": "/guides/tso-basics",
+    "category": "Basics",
+    "locked": true
+  },
+  {
+    "title": "Investigating Errors with JCL: A Beginner's Troubleshooting Guide",
+    "description": "Learn how to identify and resolve common Job Control Language (JCL) errors in mainframe environments.",
+    "link": "/guides/jcl-troubleshooting",
+    "category": "Troubleshooting",
+    "locked": true
+  },
+  {
+    "title": "Linux Fundamentals for Mainframe Beginners: Bridging the Gap",
+    "description": "Understand how Linux concepts apply in a mainframe context and learn about Linux on Z.",
+    "link": "/guides/linux-mainframe-fundamentals",
+    "category": "Cloud + Modernization",
+    "locked": true
+  }
+]
+

@@ -1,0 +1,114 @@
+{
+  "resourceCategories": [
+    {
+      "title": "Mainframe Blogs",
+      "iconName": "Newspaper",
+      "items": [
+        { "name": "IBM Mainframe Insights", "url": "https://www.ibm.com/blogs/systems/topics/mainframe/" },
+        { "name": "Planet Mainframe", "url": "https://planetmainframe.com/" },
+        { "name": "Mainframe Debate", "url": "https://mainframedebate.com/" }
+      ]
+    },
+    {
+      "title": "Mainframe Courses",
+      "iconName": "GraduationCap",
+      "items": [
+        { "name": "Coursera - Introduction to z/OS", "url": "https://www.coursera.org/learn/zos-basics" },
+        { "name": "edX - Enterprise Computing", "url": "https://www.edx.org/course/enterprise-computing" },
+        { "name": "IBM Z Xplore", "url": "https://www.ibm.com/it-infrastructure/z/education/zxplore" }
+      ]
+    },
+    {
+      "title": "Tools & Utilities",
+      "iconName": "Wrench",
+      "items": [
+        { "name": "Hercules Emulator", "url": "http://www.hercules-390.eu/" },
+        { "name": "IBM Z Open Editor", "url": "https://marketplace.visualstudio.com/items?itemName=IBM.zopeneditor" },
+        { "name": "CBT Tape", "url": "http://www.cbttape.org/" }
+      ]
+    },
+    {
+      "title": "YouTube Channels",
+      "iconName": "Youtube",
+      "items": [
+        { "name": "IBM Z and LinuxONE", "url": "https://www.youtube.com/user/IBMSystemZ" },
+        { "name": "Mainframe Basics", "url": "https://www.youtube.com/channel/UCR1ajTWGiUtiAv8X-hpBY7w" },
+        { "name": "The Mainframe Guy", "url": "https://www.youtube.com/channel/UCQ-9eUDPZWfu5tXVUPqrgrA" }
+      ]
+    },
+    {
+      "title": "Communities",
+      "iconName": "Users",
+      "items": [
+        { "name": "IBM Z and LinuxONE Community", "url": "https://www.ibm.com/community/z/" },
+        { "name": "SHARE", "url": "https://www.share.org/" },
+        { "name": "Reddit r/mainframe", "url": "https://www.reddit.com/r/mainframe/" },
+        { "name": "Mainframe Enthusiasts", "url": "https://discord.gg/2UryCwX5EW" },
+        { "name": "System Z Enthusiasts", "url": "https://discord.gg/sze" }
+      ]
+    },
+    {
+      "title": "Books",
+      "iconName": "BookOpen",
+      "items": [
+        { "name": "Introduction to the New Mainframe: z/OS Basics", "url": "https://www.redbooks.ibm.com/abstracts/sg246366.html" },
+        { "name": "Mainframe Basics for Security Professionals", "url": "https://www.amazon.com/Mainframe-Basics-Security-Professionals-Getting/dp/0133763048" },
+        { "name": "Murach's COBOL", "url": "https://www.murach.com/shop/murach-s-cobol-detail" }
+      ]
+    },
+    {
+      "title": "Guides",
+      "iconName": "FileText",
+      "items": [
+        { "name": "MainframeOps Guides", "url": "/guides" },
+        { "name": "IBM Redbooks", "url": "https://www.redbooks.ibm.com/domains/zsystems" },
+        { "name": "Mainframe Tutorials", "url": "https://www.tutorialspoint.com/mainframe/index.htm" }
+      ]
+    },
+    {
+      "title": "Notes",
+      "iconName": "PenTool",
+      "items": [
+        { "name": "MainframeOps Notes", "url": "/notes" },
+        { "name": "Mainframe Glossary", "url": "https://www.ibm.com/docs/en/zos-basic-skills?topic=zos-glossary" },
+        { "name": "Mainframe FAQ", "url": "https://www.ibm.com/support/pages/mainframe-frequently-asked-questions-faq" }
+      ]
+    },
+    {
+      "title": "Customizations",
+      "iconName": "Sliders",
+      "items": [
+        { "name": "3270 Terminal Themes", "url": "#" },
+        { "name": "ISPF Customization Guide", "url": "https://www.ibm.com/docs/en/zos/2.4.0?topic=customizing-ispf" },
+        { "name": "z/OS Customization", "url": "https://www.ibm.com/docs/en/zos/2.4.0?topic=planning-customizing-zos" }
+      ]
+    },
+    {
+      "title": "Career",
+      "iconName": "Briefcase",
+      "items": [
+        { "name": "Mainframe Job Board", "url": "https://www.mainframejobs.com/" },
+        { "name": "IBM Z Careers", "url": "https://www.ibm.com/it-infrastructure/z/education/zxplore" },
+        { "name": "Mainframe Skills Initiative", "url": "https://www.ibm.com/it-infrastructure/z/education" }
+      ]
+    },
+    {
+      "title": "Operating Systems",
+      "iconName": "HardDrive",
+      "items": [
+        { "name": "z/OS", "url": "https://www.ibm.com/products/zos" },
+        { "name": "z/VM", "url": "https://www.ibm.com/products/zvm" },
+        { "name": "z/VSE", "url": "https://www.ibm.com/products/zvse" }
+      ]
+    },
+    {
+      "title": "Apprenticeships",
+      "iconName": "Settings",
+      "items": [
+        { "name": "IBM Z Application Developer Apprenticeship", "url": "https://franklinskills.com/ibmz-application-developer/" },
+        { "name": "Broadcom Beyond Code Programs", "url": "https://mainframe.broadcom.com/beyondcode/workforce-resiliency-programs" }
+      ]
+    }
+  ]
+}
+

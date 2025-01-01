@@ -1,0 +1,39 @@
+[
+  {
+    "title": "ISPF CHEATSHEET: Navigation & Shortcuts",
+    "description": "Essential ISPF commands and shortcuts for efficient mainframe navigation.",
+    "link": "/cheatsheets/ispf-cheatsheet",
+    "locked": false
+  },
+  {
+    "title": "JCL CHEATSHEET: Key Statements & Utilities",
+    "description": "Commonly used JCL statements and utilities for job control.",
+    "link": "/cheatsheets/jcl-cheatsheet",
+    "locked": true
+  },
+  {
+    "title": "SDSF CHEATSHEET: Job Monitoring & Commands",
+    "description": "SDSF commands for effective job monitoring and management.",
+    "link": "/cheatsheets/sdsf-cheatsheet",
+    "locked": true
+  },
+  {
+    "title": "VSAM CHEATSHEET: Dataset Creation & Management",
+    "description": "Key commands and concepts for VSAM dataset operations.",
+    "link": "/cheatsheets/vsam-cheatsheet",
+    "locked": true
+  },
+  {
+    "title": "TSO CHEATSHEET: Commands & Usage",
+    "description": "Essential TSO commands and their usage in mainframe environments.",
+    "link": "/cheatsheets/tso-cheatsheet",
+    "locked": true
+  },
+  {
+    "title": "MVS ABEND CODES: Common Error Codes",
+    "description": "Quick reference for common MVS Abnormal End (ABEND) codes and their meanings.",
+    "link": "/cheatsheets/mvs-abend-codes",
+    "locked": false
+  }
+]
+

@@ -1,0 +1,656 @@
+{
+  "environments": ["Z/OS", "Z/VM", "Z/TPF", "Z/VSE", "IBM i", "AIX", "KVM", "OS/390", "Cloud", "Custom Emulators"],
+  "toolTypes": ["Scripts/Macros", "Utility", "Cloud", "App", "Library/Frameworks", "Plugins"],
+  "functionalities": [
+    "Testing", "Security", "Migration", "Data & Storage", "User Interface",
+    "Batch & Job Control", "Transaction Processing", "Dev", "Integration",
+    "Virtualization", "Automation & Orchestration", "Monitoring",
+    "Logging & Debugging", "Backup & Recovery", "Web Services", "Data Conversion", 
+    "Emulation", "IDE Integration", "CLI Enhancement", "Analysis"
+  ],
+  "components": [
+    "DB2", "IMS DB", "VSAM", "CICS", "TSO", "JCL", "REXX", "CLIST",
+    "COBOL", "PL/I", "Assembler(HLASM)", "Java", "Python", "ISPF", "REST",
+    "Jenkins", "VSCode", "Eclipse", "RACF", "Node.js"
+  ],
+  "tools": [
+    {
+      "name": "iebpdse",
+      "environment": ["Z/OS"],
+      "toolType": ["Utility"],
+      "functionality": ["Data & Storage"],
+      "components": ["ISPF"],
+      "tags": ["Z/OS", "ISPF", "IEBPDSE"],
+      "description": "ISPF front-end to IEBPDSE utility for managing PDSE datasets",
+      "website": "https://github.com/lbdyck/iebpdse",
+      "contributors": [
+        { "name": "Lionel B. Dyck", "github": "https://github.com/lbdyck", "avatar": "https://github.com/lbdyck.png" }
+      ]
+    },
+    {
+      "name": "rexxer",
+      "environment": ["Z/OS"],
+      "toolType": ["Scripts/Macros"],
+      "functionality": ["Dev"],
+      "components": ["REXX", "ISPF"],
+      "tags": ["Z/OS", "REXX", "Compiler", "ISPF"],
+      "description": "Validate a REXX exec using the REXX Compiler while in ISPF Edit",
+      "website": "https://github.com/lbdyck/rexxer",
+      "contributors": [
+        { "name": "Lionel B. Dyck", "github": "https://github.com/lbdyck", "avatar": "https://github.com/lbdyck.png" }
+      ]
+    },
+    {
+      "name": "rexxcl",
+      "environment": ["Z/OS"],
+      "toolType": ["Scripts/Macros"],
+      "functionality": ["Dev"],
+      "components": ["REXX", "ISPF"],
+      "tags": ["Z/OS", "REXX", "Compile", "Link"],
+      "description": "ISPF Edit Macro to Compile/Link REXX Code using PopUp Prompts",
+      "website": "https://github.com/lbdyck/rexxcl",
+      "contributors": [
+        { "name": "Lionel B. Dyck", "github": "https://github.com/lbdyck", "avatar": "https://github.com/lbdyck.png" }
+      ]
+    },
+    {
+      "name": "ispfllv",
+      "environment": ["Z/OS"],
+      "toolType": ["Utility"],
+      "functionality": ["Logging & Debugging"],
+      "components": ["ISPF"],
+      "tags": ["Z/OS", "ISPF", "Log", "Viewer"],
+      "description": "ISPF ISPLIST/ISPLOG Sysout Viewer for managing ISPF logs",
+      "website": "https://github.com/lbdyck/ispfllv",
+      "contributors": [
+        { "name": "Lionel B. Dyck", "github": "https://github.com/lbdyck", "avatar": "https://github.com/lbdyck.png" }
+      ]
+    },
+    {
+      "name": "loadispf",
+      "environment": ["Z/OS"],
+      "toolType": ["Scripts/Macros"],
+      "functionality": ["Dev"],
+      "components": ["ISPF", "REXX"],
+      "tags": ["Z/OS", "ISPF", "REXX", "Panels"],
+      "description": "Allow ISPF Panels, Skels, Msgs, and CLIST or REXX inline in REXX code",
+      "website": "https://github.com/lbdyck/loadispf",
+      "contributors": [
+        { "name": "Lionel B. Dyck", "github": "https://github.com/lbdyck", "avatar": "https://github.com/lbdyck.png" }
+      ]
+    },
+    {
+      "name": "ZIGI",
+      "environment": ["Z/OS"],
+      "toolType": ["Utility"],
+      "functionality": ["Dev", "Integration"],
+      "components": ["ISPF"],
+      "tags": ["Z/OS", "Git", "ISPF", "Integration"],
+      "description": "z/OS ISPF Git Interface - A native z/OS interface to git repositories",
+      "website": "https://github.com/zigi",
+      "contributors": [
+        { "name": "Lionel B. Dyck", "github": "https://github.com/lbdyck", "avatar": "https://github.com/lbdyck.png" }
+      ]
+    },
+    {
+      "name": "Zowe",
+      "environment": ["Z/OS"],
+      "toolType": ["Library/Frameworks"],
+      "functionality": ["Dev", "Integration", "User Interface"],
+      "components": ["ISPF", "REST"],
+      "tags": ["Z/OS", "Framework", "API", "CLI"],
+      "description": "Open source framework for z/OS, providing REST API, CLI, and web UI interfaces",
+      "website": "https://github.com/zowe",
+      "contributors": [
+        { "name": "Zowe", "github": "https://github.com/zowe", "avatar": "https://github.com/zowe.png" }
+      ]
+    },
+    {
+      "name": "ZOROW",
+      "environment": ["Z/OS"],
+      "toolType": ["Utility"],
+      "functionality": ["Dev"],
+      "components": ["ISPF"],
+      "tags": ["Z/OS", "Development"],
+      "description": "Z/OS Open Repository of Workflows",
+      "website": "https://github.com/openmainframeproject/zorow",
+      "contributors": [
+        { "name": "Open Mainframe Project", "github": "https://github.com/openmainframeproject", "avatar": "https://github.com/openmainframeproject.png" }
+      ]
+    },
+    {
+      "name": "DRIVE370",
+      "environment": ["Z/OS", "Custom Emulators"],
+      "toolType": ["Utility"],
+      "functionality": ["Storage"],
+      "components": ["Assembler(HLASM)"],
+      "tags": ["Storage", "Emulator"],
+      "description": "IBM 3270 disk drive emulator",
+      "website": "https://github.com/moshix/drive370",
+      "contributors": [
+        { "name": "Moshix", "github": "https://github.com/moshix", "avatar": "https://github.com/moshix.png" }
+      ]
+    },
+    {
+      "name": "ASMG",
+      "environment": ["Z/OS"],
+      "toolType": ["Utility"],
+      "functionality": ["Dev"],
+      "components": ["Assembler(HLASM)"],
+      "tags": ["Assembler", "Development"],
+      "description": "Assembler G for MVS 3.8j",
+      "website": "https://github.com/moshix/ASMG",
+      "contributors": [
+        { "name": "Moshix", "github": "https://github.com/moshix", "avatar": "https://github.com/moshix.png" }
+      ]
+    },
+    {
+      "name": "KICKS",
+      "environment": ["Z/OS"],
+      "toolType": ["App"],
+      "functionality": ["Transaction Processing"],
+      "components": ["CICS"],
+      "tags": ["CICS", "Transaction"],
+      "description": "KICKS for TSO - A CICS-like environment under TSO",
+      "website": "https://github.com/moshix/kicks",
+      "contributors": [
+        { "name": "Moshix", "github": "https://github.com/moshix", "avatar": "https://github.com/moshix.png" }
+      ]
+    },
+    {
+      "name": "DLI",
+      "environment": ["Z/OS"],
+      "toolType": ["App"],
+      "functionality": ["Data & Storage"],
+      "components": ["IMS DB"],
+      "tags": ["IMS", "Database"],
+      "description": "DL/I database system for MVS 3.8j",
+      "website": "https://github.com/moshix/DLI",
+      "contributors": [
+        { "name": "Moshix", "github": "https://github.com/moshix", "avatar": "https://github.com/moshix.png" }
+      ]
+    },
+    {
+      "name": "IBM1401",
+      "environment": ["Custom Emulators"],
+      "toolType": ["Utility"],
+      "functionality": ["Emulation"],
+      "components": ["Assembler(HLASM)"],
+      "tags": ["Emulator", "Historical"],
+      "description": "IBM 1401 emulator and tools",
+      "website": "https://github.com/moshix/IBM1401",
+      "contributors": [
+        { "name": "Moshix", "github": "https://github.com/moshix", "avatar": "https://github.com/moshix.png" }
+      ]
+    },
+    {
+      "name": "MVS38J MACLIB",
+      "environment": ["Z/OS"],
+      "toolType": ["Library/Frameworks"],
+      "functionality": ["Dev"],
+      "components": ["Assembler(HLASM)"],
+      "tags": ["Macros", "Library"],
+      "description": "MVS38j SYS1.MACLIB - System Macro Library",
+      "website": "https://github.com/moshix/MVS38j.SYS1.MACLIB",
+      "contributors": [
+        { "name": "Moshix", "github": "https://github.com/moshix", "avatar": "https://github.com/moshix.png" }
+      ]
+    },
+    {
+      "name": "REXX Web Server",
+      "environment": ["Z/OS"],
+      "toolType": ["App"],
+      "functionality": ["Web Services"],
+      "components": ["REXX"],
+      "tags": ["Web", "Server", "REXX"],
+      "description": "A web server written in REXX",
+      "website": "https://github.com/moshix/rexxwebserver",
+      "contributors": [
+        { "name": "Moshix", "github": "https://github.com/moshix", "avatar": "https://github.com/moshix.png" }
+      ]
+    },
+    {
+      "name": "ANSI2EBCDIC",
+      "environment": ["Z/OS"],
+      "toolType": ["Utility"],
+      "functionality": ["Data Conversion"],
+      "components": ["Assembler(HLASM)"],
+      "tags": ["Conversion", "Character Sets"],
+      "description": "ANSI to EBCDIC converter utility",
+      "website": "https://github.com/moshix/ANSi2EBCDiC",
+      "contributors": [
+        { "name": "Moshix", "github": "https://github.com/moshix", "avatar": "https://github.com/moshix.png" }
+      ]
+    },
+    {
+      "name": "MVS Split Spool",
+      "environment": ["Z/OS"],
+      "toolType": ["Utility"],
+      "functionality": ["Batch & Job Control"],
+      "components": ["JCL"],
+      "tags": ["Spool", "Utility"],
+      "description": "MVS spool file splitter utility",
+      "website": "https://github.com/moshix/mvssplitspl",
+      "contributors": [
+        { "name": "Moshix", "github": "https://github.com/moshix", "avatar": "https://github.com/moshix.png" }
+      ]
+    },
+    {
+      "name": "Zowe Jenkins Plugin",
+      "environment": ["Z/OS"],
+      "toolType": ["Plugins"],
+      "functionality": ["Dev", "Integration", "Automation & Orchestration"],
+      "components": ["Jenkins"],
+      "tags": ["CI/CD", "DevOps", "Jenkins"],
+      "description": "Jenkins plugin for z/OS DevOps integration with Zowe",
+      "website": "https://github.com/zowe/zowe-zdevops-jenkins-plugin",
+      "contributors": [
+        { "name": "Zowe", "github": "https://github.com/zowe", "avatar": "https://github.com/zowe.png" }
+      ]
+    },
+    {
+      "name": "Zowe CLI FTP Plugin",
+      "environment": ["Z/OS"],
+      "toolType": ["Plugins"],
+      "functionality": ["CLI Enhancement", "Data & Storage"],
+      "components": ["TSO"],
+      "tags": ["CLI", "FTP", "File Transfer"],
+      "description": "FTP Plugin for Zowe CLI",
+      "website": "https://github.com/zowe/zowe-cli-ftp-plugin",
+      "contributors": [
+        { "name": "Zowe", "github": "https://github.com/zowe", "avatar": "https://github.com/zowe.png" }
+      ]
+    },
+    {
+      "name": "OPS/REXX Language Support",
+      "environment": ["Z/OS"],
+      "toolType": ["Plugins"],
+      "functionality": ["IDE Integration", "Dev"],
+      "components": ["REXX", "VSCode"],
+      "tags": ["OPS/REXX", "IDE", "VSCode"],
+      "description": "VSCode extension for OPS/REXX language support",
+      "website": "https://github.com/BroadcomMFD/opsrexx-language-support",
+      "contributors": [
+        { "name": "Broadcom", "github": "https://github.com/BroadcomMFD", "avatar": "https://github.com/BroadcomMFD.png" }
+      ]
+    },
+    {
+      "name": "Zowe CLI MQ Plugin",
+      "environment": ["Z/OS"],
+      "toolType": ["Plugins"],
+      "functionality": ["CLI Enhancement", "Integration"],
+      "components": ["TSO"],
+      "tags": ["CLI", "MQ", "Messaging"],
+      "description": "IBM MQ Plugin for Zowe CLI",
+      "website": "https://github.com/zowe/zowe-cli-mq-plugin",
+      "contributors": [
+        { "name": "Zowe", "github": "https://github.com/zowe", "avatar": "https://github.com/zowe.png" }
+      ]
+    },
+    {
+      "name": "Zowe CLI IMS Plugin",
+      "environment": ["Z/OS"],
+      "toolType": ["Plugins"],
+      "functionality": ["CLI Enhancement", "Data & Storage"],
+      "components": ["IMS DB"],
+      "tags": ["CLI", "IMS", "Database"],
+      "description": "IMS Plugin for Zowe CLI",
+      "website": "https://github.com/zowe/zowe-cli-ims-plugin",
+      "contributors": [
+        { "name": "Zowe", "github": "https://github.com/zowe", "avatar": "https://github.com/zowe.png" }
+      ]
+    },
+    {
+      "name": "Zowe CLI DB2 Plugin",
+      "environment": ["Z/OS"],
+      "toolType": ["Plugins"],
+      "functionality": ["CLI Enhancement", "Data & Storage"],
+      "components": ["DB2"],
+      "tags": ["CLI", "DB2", "Database"],
+      "description": "DB2 Plugin for Zowe CLI",
+      "website": "https://github.com/zowe/zowe-cli-db2-plugin",
+      "contributors": [
+        { "name": "Zowe", "github": "https://github.com/zowe", "avatar": "https://github.com/zowe.png" }
+      ]
+    },
+    {
+      "name": "VSCode Extension for CICS",
+      "environment": ["Z/OS"],
+      "toolType": ["Plugins"],
+      "functionality": ["IDE Integration", "Dev"],
+      "components": ["CICS", "VSCode"],
+      "tags": ["CICS", "IDE", "VSCode"],
+      "description": "Visual Studio Code extension for CICS development",
+      "website": "https://github.com/zowe/vscode-extension-for-cics",
+      "contributors": [
+        { "name": "Zowe", "github": "https://github.com/zowe", "avatar": "https://github.com/zowe.png" }
+      ]
+    },
+    {
+      "name": "HLASM Language Support",
+      "environment": ["Z/OS"],
+      "toolType": ["Plugins"],
+      "functionality": ["IDE Integration", "Dev"],
+      "components": ["Assembler(HLASM)", "Eclipse"],
+      "tags": ["HLASM", "IDE", "Eclipse"],
+      "description": "Eclipse Che LSP server for HLASM",
+      "website": "https://github.com/eclipse/che-che4z-lsp-for-hlasm",
+      "contributors": [
+        { "name": "Eclipse", "github": "https://github.com/eclipse", "avatar": "https://github.com/eclipse.png" }
+      ]
+    },
+    {
+      "name": "Mainframe Debugger",
+      "environment": ["Z/OS"],
+      "toolType": ["Plugins"],
+      "functionality": ["Debugging", "Dev"],
+      "components": ["VSCode"],
+      "tags": ["Debug", "IDE", "VSCode"],
+      "description": "Visual Studio Code extension for debugging mainframe applications",
+      "website": "https://github.com/BroadcomMFD/debugger-for-mainframe",
+      "contributors": [
+        { "name": "Broadcom", "github": "https://github.com/BroadcomMFD", "avatar": "https://github.com/BroadcomMFD.png" }
+      ]
+    },
+    {
+      "name": "Mainframe Data Editor",
+      "environment": ["Z/OS"],
+      "toolType": ["Plugins"],
+      "functionality": ["Data & Storage", "Dev"],
+      "components": ["VSCode"],
+      "tags": ["Data", "Editor", "VSCode"],
+      "description": "Visual Studio Code extension for editing mainframe data",
+      "website": "https://github.com/BroadcomMFD/data-editor-for-mainframe",
+      "contributors": [
+        { "name": "Broadcom", "github": "https://github.com/BroadcomMFD", "avatar": "https://github.com/BroadcomMFD.png" }
+      ]
+    },
+    {
+      "name": "Code4z",
+      "environment": ["Z/OS"],
+      "toolType": ["Plugins"],
+      "functionality": ["IDE Integration", "Dev"],
+      "components": ["VSCode"],
+      "tags": ["IDE", "VSCode", "Development"],
+      "description": "Collection of extensions for mainframe development in VSCode",
+      "website": "https://github.com/BroadcomMFD/code4z",
+      "contributors": [
+        { "name": "Broadcom", "github": "https://github.com/BroadcomMFD", "avatar": "https://github.com/BroadcomMFD.png" }
+      ]
+    },
+    {
+      "name": "COBOL Language Support",
+      "environment": ["Z/OS"],
+      "toolType": ["Plugins"],
+      "functionality": ["IDE Integration", "Dev"],
+      "components": ["COBOL", "Eclipse"],
+      "tags": ["COBOL", "IDE", "Eclipse"],
+      "description": "Eclipse Che LSP server for COBOL",
+      "website": "https://github.com/eclipse/che-che4z-lsp-for-cobol",
+      "contributors": [
+        { "name": "Eclipse", "github": "https://github.com/eclipse", "avatar": "https://github.com/eclipse.png" }
+      ]
+    },
+    {
+      "name": "COBOL Control Flow",
+      "environment": ["Z/OS"],
+      "toolType": ["Plugins"],
+      "functionality": ["Dev", "Debugging"],
+      "components": ["COBOL", "VSCode"],
+      "tags": ["COBOL", "Analysis", "VSCode"],
+      "description": "Visual Studio Code extension for COBOL control flow analysis",
+      "website": "https://github.com/BroadcomMFD/cobol-control-flow",
+      "contributors": [
+        { "name": "Broadcom", "github": "https://github.com/BroadcomMFD", "avatar": "https://github.com/BroadcomMFD.png" }
+      ]
+    },
+    {
+      "name": "Abend Analyzer",
+      "environment": ["Z/OS"],
+      "toolType": ["Plugins"],
+      "functionality": ["Debugging", "Dev"],
+      "components": ["VSCode"],
+      "tags": ["Debug", "Analysis", "VSCode"],
+      "description": "Visual Studio Code extension for analyzing mainframe abends",
+      "website": "https://github.com/BroadcomMFD/abend-analyzer-for-mainframe",
+      "contributors": [
+        { "name": "Broadcom", "github": "https://github.com/BroadcomMFD", "avatar": "https://github.com/BroadcomMFD.png" }
+      ]
+    },
+    {
+      "name": "MVS38 Disassembler",
+      "environment": ["Z/OS"],
+      "toolType": ["Utility"],
+      "functionality": ["Dev"],
+      "components": ["Assembler(HLASM)"],
+      "tags": ["Disassembler", "MVS"],
+      "description": "Disassembler for MVS 3.8j",
+      "website": "https://github.com/moshix/mvs38dasm",
+      "contributors": [
+        { "name": "Moshix", "github": "https://github.com/moshix", "avatar": "https://github.com/moshix.png" }
+      ]
+    },
+    {
+      "name": "DA Utility",
+      "environment": ["Z/OS"],
+      "toolType": ["Utility"],
+      "functionality": ["Data & Storage"],
+      "components": ["TSO"],
+      "tags": ["Dataset", "Utility"],
+      "description": "Dataset allocation utility",
+      "website": "https://github.com/moshix/da",
+      "contributors": [
+        { "name": "Moshix", "github": "https://github.com/moshix", "avatar": "https://github.com/moshix.png" }
+      ]
+    },
+    {
+      "name": "Db2 DDF Analysis Tool",
+      "environment": ["Z/OS"],
+      "toolType": ["Utility"],
+      "functionality": ["Data & Storage", "Analysis"],
+      "components": ["DB2"],
+      "tags": ["DB2", "DDF", "Analysis"],
+      "description": "Tool for analyzing Db2 Distributed Data Facility (DDF) usage and patterns",
+      "website": "https://github.com/MartinPacker/Db2-DDF-Analysis-Tool",
+      "contributors": [
+        { "name": "Martin Packer", "github": "https://github.com/MartinPacker", "avatar": "https://github.com/MartinPacker.png" }
+      ]
+    },
+    {
+      "name": "zdopack",
+      "environment": ["Z/OS"],
+      "toolType": ["Utility"],
+      "functionality": ["Dev", "Automation & Orchestration"],
+      "components": ["JCL", "REXX"],
+      "tags": ["Automation", "Packaging"],
+      "description": "z/OS Development Operations Package - Tools for z/OS development and operations",
+      "website": "https://github.com/wizardofzos/zdopack",
+      "contributors": [
+        { "name": "Wizard of z/OS", "github": "https://github.com/wizardofzos", "avatar": "https://github.com/wizardofzos.png" }
+      ]
+    },
+    {
+      "name": "zos",
+      "environment": ["Z/OS"],
+      "toolType": ["Library/Frameworks"],
+      "functionality": ["Dev"],
+      "components": ["REXX", "JCL"],
+      "tags": ["Development", "Tools"],
+      "description": "Collection of z/OS utilities and tools",
+      "website": "https://github.com/lnlyssg/zos",
+      "contributors": [
+        { "name": "lnlyssg", "github": "https://github.com/lnlyssg", "avatar": "https://github.com/lnlyssg.png" }
+      ]
+    },
+    {
+      "name": "racfadm",
+      "environment": ["Z/OS"],
+      "toolType": ["Utility"],
+      "functionality": ["Security"],
+      "components": ["RACF"],
+      "tags": ["Security", "RACF", "Administration"],
+      "description": "RACF Administration Tool",
+      "website": "https://github.com/wizardofzos/racfadm",
+      "contributors": [
+        { "name": "Wizard of z/OS", "github": "https://github.com/wizardofzos", "avatar": "https://github.com/wizardofzos.png" }
+      ]
+    },
+    {
+      "name": "githelp",
+      "environment": ["Z/OS"],
+      "toolType": ["Utility"],
+      "functionality": ["Dev"],
+      "components": ["ISPF"],
+      "tags": ["Git", "ISPF", "Help"],
+      "description": "Git help utilities for z/OS",
+      "website": "https://github.com/lbdyck/githelp",
+      "contributors": [
+        { "name": "Lionel B. Dyck", "github": "https://github.com/lbdyck", "avatar": "https://github.com/lbdyck.png" }
+      ]
+    },
+    {
+      "name": "zOS Tooling",
+      "environment": ["Z/OS"],
+      "toolType": ["Utility"],
+      "functionality": ["Dev", "Automation & Orchestration"],
+      "components": ["REXX", "JCL"],
+      "tags": ["Tools", "Automation"],
+      "description": "Collection of z/OS tools and utilities",
+      "website": "https://github.com/wizardofzos/tooling",
+      "contributors": [
+        { "name": "Wizard of z/OS", "github": "https://github.com/wizardofzos", "avatar": "https://github.com/wizardofzos.png" }
+      ]
+    },
+    {
+      "name": "zFAM",
+      "environment": ["Z/OS"],
+      "toolType": ["App"],
+      "functionality": ["Data & Storage"],
+      "components": ["CICS"],
+      "tags": ["CICS", "File Access"],
+      "description": "z/OS File Access Manager for CICS",
+      "website": "https://github.com/wizardofzos/zFAM",
+      "contributors": [
+        { "name": "Wizard of z/OS", "github": "https://github.com/wizardofzos", "avatar": "https://github.com/wizardofzos.png" }
+      ]
+    },
+    {
+      "name": "Privesc",
+      "environment": ["Z/OS"],
+      "toolType": ["Utility"],
+      "functionality": ["Security"],
+      "components": ["REXX"],
+      "tags": ["Security", "Privilege Escalation"],
+      "description": "Privilege Escalation toolkit for z/OS",
+      "website": "https://github.com/wizardofzos/Privesc",
+      "contributors": [
+        { "name": "Wizard of z/OS", "github": "https://github.com/wizardofzos", "avatar": "https://github.com/wizardofzos.png" }
+      ]
+    },
+    {
+      "name": "FSEQ2JSON",
+      "environment": ["Z/OS"],
+      "toolType": ["Utility"],
+      "functionality": ["Data Conversion"],
+      "components": ["REXX"],
+      "tags": ["Conversion", "JSON"],
+      "description": "Convert Fixed Sequential datasets to JSON format",
+      "website": "https://github.com/zdevops/FSEQ2JSON",
+      "contributors": [
+        { "name": "zdevops", "github": "https://github.com/zdevops", "avatar": "https://github.com/zdevops.png" }
+      ]
+    },
+    {
+      "name": "mlocs",
+      "environment": ["Z/OS"],
+      "toolType": ["Utility"],
+      "functionality": ["Dev"],
+      "components": ["REXX"],
+      "tags": ["Development", "Metrics"],
+      "description": "Mainframe Lines of Code Statistics utility",
+      "website": "https://github.com/zdevops/mlocs",
+      "contributors": [
+        { "name": "zdevops", "github": "https://github.com/zdevops", "avatar": "https://github.com/zdevops.png" }
+      ]
+    },
+    {
+      "name": "RGF",
+      "environment": ["Z/OS"],
+      "toolType": ["Utility"],
+      "functionality": ["Data & Storage"],
+      "components": ["REXX"],
+      "tags": ["Report", "Generation"],
+      "description": "REXX Generation Framework for report generation",
+      "website": "https://github.com/zdevops/RGF",
+      "contributors": [
+        { "name": "zdevops", "github": "https://github.com/zdevops", "avatar": "https://github.com/zdevops.png" }
+      ]
+    },
+    {
+      "name": "zdosu",
+      "environment": ["Z/OS"],
+      "toolType": ["Utility"],
+      "functionality": ["Security"],
+      "components": ["REXX"],
+      "tags": ["Security", "Utilities"],
+      "description": "z/OS Development Operations Security Utilities",
+      "website": "https://github.com/zdevops/zdosu",
+      "contributors": [
+        { "name": "zdevops", "github": "https://github.com/zdevops", "avatar": "https://github.com/zdevops.png" }
+      ]
+    },
+    {
+      "name": "SIM6502",
+      "environment": ["Custom Emulators"],
+      "toolType": ["Utility"],
+      "functionality": ["Emulation"],
+      "components": ["Assembler(HLASM)"],
+      "tags": ["Emulator", "6502"],
+      "description": "6502 processor simulator written in BAL",
+      "website": "https://github.com/SYSPROG-JLS/SIM6502",
+      "contributors": [
+        { "name": "SYSPROG-JLS", "github": "https://github.com/SYSPROG-JLS", "avatar": "https://github.com/SYSPROG-JLS.png" }
+      ]
+    },
+    {
+      "name": "S370BALEmulator",
+      "environment": ["Custom Emulators"],
+      "toolType": ["Utility"],
+      "functionality": ["Emulation"],
+      "components": ["Assembler(HLASM)"],
+      "tags": ["Emulator", "S/370", "BAL"],
+      "description": "System/370 BAL instruction emulator",
+      "website": "https://github.com/SYSPROG-JLS/S370BALEmulator",
+      "contributors": [
+        { "name": "SYSPROG-JLS", "github": "https://github.com/SYSPROG-JLS", "avatar": "https://github.com/SYSPROG-JLS.png" }
+      ]
+    },
+    {
+      "name": "CICS Node.js Invoke",
+      "environment": ["Z/OS"],
+      "toolType": ["Library/Frameworks"],
+      "functionality": ["Integration"],
+      "components": ["CICS", "Node.js"],
+      "tags": ["CICS", "Node.js", "Integration"],
+      "description": "Invoke CICS transactions from Node.js applications",
+      "website": "https://github.com/cicsdev/cics-nodejs-invoke",
+      "contributors": [
+        { "name": "CICS Development", "github": "https://github.com/cicsdev", "avatar": "https://github.com/cicsdev.png" }
+      ]
+    },
+    {
+      "name": "DBB zAppBuild",
+      "environment": ["Z/OS"],
+      "toolType": ["Library/Frameworks"],
+      "functionality": ["Dev", "Automation & Orchestration"],
+      "components": ["Java"],
+      "tags": ["Build", "Automation", "DevOps"],
+      "description": "Dependency Based Build framework for z/OS application build automation",
+      "website": "https://github.com/IBM/dbb-zappbuild",
+      "contributors": [
+        { "name": "IBM", "github": "https://github.com/IBM", "avatar": "https://github.com/IBM.png" }
+      ]
+    }
+  ]
+}
+
