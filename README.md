@@ -5,9 +5,9 @@
 <h1 align="center">mainframeOps - Resource hub for mainframes & cloud operations.</h1>
 
 <div align="center">
-  <a href="https://www.mainframeops.com/">mainframeops.com</a> |
-  <a href="https://www.mainframeops.com/contribute">contribute</a> |
-  <a href="https://www.mainframeops.com/changelog">changelog</a>
+  <a href="https://mainframeops.com">mainframeops.com</a> |
+  <a href="https://mainframeops.com/contribute">contribute</a> |
+  <a href="https://mainframeops.com/changelog">changelog</a>
 </div>
 
 <img src="public/screenshots/mfopsdarkround.png">
